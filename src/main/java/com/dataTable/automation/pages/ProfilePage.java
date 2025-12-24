@@ -56,7 +56,7 @@ public class ProfilePage {
 	public void enterProfileDetails(Map<String, String> userData) {
 		if (userData.containsKey("Gender")) {
 	
-			wait.until(ExpectedConditions.elementToBeClickable(genderList)).click();
+			wait.until(ExpectedConditions.elementToBeClickable(genderList)).clear();
 
 			driver.findElement(genderList).sendKeys(userData.get("Gender"));;
 			}

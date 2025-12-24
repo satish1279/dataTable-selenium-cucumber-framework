@@ -66,6 +66,7 @@ public class ProfileSteps {
 				profilePage.isProfileUpdateSuccessful());
 
 		String expectedMessage = "The profile has been saved successful";
+
 		String actualMessage = profilePage.getProfileUpdateSuccessMessage();
 
 		Assert.assertEquals("Message text mismatch!", expectedMessage, actualMessage);

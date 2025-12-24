@@ -1,0 +1,4 @@
+com\dataTable\automation\runner\TestRunner.class
+com\dataTable\automation\stepDefinition\Hooks.class
+com\dataTable\automation\stepDefinition\RegistrationSteps.class
+com\dataTable\automation\stepDefinition\ProfileSteps.class

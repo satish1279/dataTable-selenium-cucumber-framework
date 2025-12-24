@@ -48,3 +48,38 @@
 2025-12-24 16:15:34.929 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - updated data entered
 2025-12-24 16:15:35.039 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - updated data saved
 2025-12-24 16:15:36.792 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Success message verified: The profile has been saved successful
+2025-12-24 22:25:30.650 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:25:36.045 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:25:36.171 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:29:37.836 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:29:42.727 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:29:42.864 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:30:33.219 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:30:38.645 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:30:38.756 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:31:44.394 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:31:48.650 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:31:48.774 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:31:50.466 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Success message verified: The profile has been saved successful
+2025-12-24 22:34:00.994 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:34:06.429 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:34:06.547 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:34:07.735 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Success message verified: The profile has been saved successful
+2025-12-24 22:34:51.339 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User is on the registration page
+2025-12-24 22:34:51.984 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User entered required data
+2025-12-24 22:34:52.099 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User submitted the data
+2025-12-24 22:35:10.652 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:35:16.023 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:35:16.132 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:35:17.275 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Success message verified: The profile has been saved successful
+2025-12-24 22:36:06.453 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User is on the registration page
+2025-12-24 22:36:07.138 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User entered required data
+2025-12-24 22:36:07.253 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User submitted the data
+2025-12-24 22:37:03.289 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User is on the registration page
+2025-12-24 22:37:03.945 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User entered required data
+2025-12-24 22:37:04.049 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - User submitted the data
+2025-12-24 22:37:05.784 [main] INFO  com.dataTable.automation.stepDefinition.RegistrationSteps - Success message verified: Registration is successful
+2025-12-24 22:37:09.126 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User logged in successfully
+2025-12-24 22:37:13.390 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - User entered updated data
+2025-12-24 22:37:13.501 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Updated data saved
+2025-12-24 22:37:15.213 [main] INFO  com.dataTable.automation.stepDefinition.ProfileSteps - Success message verified: The profile has been saved successful
