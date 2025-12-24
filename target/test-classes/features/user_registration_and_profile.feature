@@ -4,9 +4,9 @@ Feature: User registration and profile update
     Given User is on the registration page
     When User enters the following details:
       | field            | value     |
-      | Login            | Markk     |
-      | First Name       | Doee      |
-      | Last Name        | johnn     |
+      | Login            | Markkp    |
+      | First Name       | Doeeep    |
+      | Last Name        | johnnp    |
       | Password         | Pass@1234 |
       | Confirm Password | Pass@1234 |
     And User clicks on the Register button
