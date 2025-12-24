@@ -1,4 +1,4 @@
-# Selenium Cucumber Framework
+# DataTable Selenium Cucumber Framework
 
 This is an automated testing framework built using **Java**, **Selenium WebDriver**,  **Cucumber BDD**, and **DataTable**.
 
