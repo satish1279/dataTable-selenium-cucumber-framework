@@ -13,21 +13,22 @@ public class RegistrationPage {
 	private WebDriver driver;
 	WebDriverWait wait;
 
-	By registrationButton = By.xpath("//a[normalize-space()='Register']");
+	private By registrationButton = By.xpath("//a[normalize-space()='Register']");
 
-	By loginTextbox = By.cssSelector("input#username");
+	private By loginTextbox = By.cssSelector("input#username");
 
-	By firstnameTextbox = By.cssSelector("input#firstName");
+	private By firstnameTextbox = By.cssSelector("input#firstName");
 
-	By lastnameTextbox = By.cssSelector("input#lastName");
+	private By lastnameTextbox = By.cssSelector("input#lastName");
 
-	By passwordTextbox = By.cssSelector("input#password");
+	private By passwordTextbox = By.cssSelector("input#password");
 
-	By confirmpasswordTextbox = By.cssSelector("input#confirmPassword");
+	private By confirmpasswordTextbox = By.cssSelector("input#confirmPassword");
 
-	By RegisterButton = By.xpath("//button[@type='submit' and contains(text(), 'Register')]");
+	private By RegisterButton = By.xpath("//button[@type='submit' and contains(text(), 'Register')]");
 
-	By successMessage = By.xpath("//div[contains(@class, 'alert-success')]");
+	private By successMessage = By.xpath("//div[contains(@class, 'alert-success')]");
+	
 
 	public RegistrationPage(WebDriver driver) {
 		this.driver = driver;
