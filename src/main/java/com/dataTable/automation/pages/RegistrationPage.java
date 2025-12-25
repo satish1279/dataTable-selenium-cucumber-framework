@@ -66,7 +66,7 @@ public class RegistrationPage {
 	}
 
 	public boolean isRegistrationSuccessful() {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
+		wait.until(ExpectedConditions.presenceOfElementLocated(successMessage));
 		return driver.findElement(successMessage).isDisplayed();
 	}
 
