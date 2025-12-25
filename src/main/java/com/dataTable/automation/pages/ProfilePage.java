@@ -86,7 +86,7 @@ public class ProfilePage {
 	}
 
 	public boolean isProfileUpdateSuccessful() {
-		wait.until(ExpectedConditions.presenceOfElementLocated(successMessage));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
 		return driver.findElement(successMessage).isDisplayed();
 	}
 
