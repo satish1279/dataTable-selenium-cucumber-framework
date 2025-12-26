@@ -1,5 +1,0 @@
-com\dataTable\automation\pages\ProfilePage.class
-com\dataTable\automation\browser\BrowserSetup.class
-com\dataTable\automation\pages\RegistrationPage.class
-com\dataTable\automation\utils\ExtentReportManager.class
-com\dataTable\automation\utils\ScreenshotHelper.class
