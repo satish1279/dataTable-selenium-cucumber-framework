@@ -34,7 +34,7 @@ public class ProfilePage {
 
 	private By saveButton = By.cssSelector("button[type='submit']");
 
-	private By successMessage = By.xpath("//div[contains(@class, 'hidden') and contains(text(), 'successful')]");
+	private By successMessage = By.xpath("//div[contains(@class, 'hidden-md-down')]");
 
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
@@ -88,7 +88,8 @@ public class ProfilePage {
 
 	public boolean isProfileUpdateSuccessful() {
 		wait.until(ExpectedConditions.textToBePresentInElementLocated(successMessage, "The profile has been saved successful"));
-		return driver.findElement(successMessage).isDisplayed(); }
+		return driver.findElement(successMessage).isDisplayed(); 
+		}
 
 
 
