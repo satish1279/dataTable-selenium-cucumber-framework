@@ -70,6 +70,8 @@ public class RegistrationPage {
 		return driver.findElement(successMessage).isDisplayed();
 	}
 
+	
+	
 	public String getRegistrationSuccessMessage() {
 		return driver.findElement(successMessage).getText().trim();
 	}
