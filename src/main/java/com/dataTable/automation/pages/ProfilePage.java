@@ -34,12 +34,11 @@ public class ProfilePage {
 
 	private By saveButton = By.cssSelector("button[type='submit']");
 
-	private By successMessage = By.xpath("//div[contains(@class, 'hidden-md-down')] ");
-
+	private By successMessage = By.xpath("//div[contains(@class, 'alert-success') and normalize-space()='The profile has been saved successful']");
 
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(25));
 	}
 
 	public void login() {
@@ -58,7 +57,8 @@ public class ProfilePage {
 
 			wait.until(ExpectedConditions.elementToBeClickable(genderList)).clear();
 
-			driver.findElement(genderList).sendKeys(userData.get("Gender"));;
+			driver.findElement(genderList).sendKeys(userData.get("Gender"));
+			;
 		}
 
 		if (userData.containsKey("Age")) {
@@ -86,16 +86,13 @@ public class ProfilePage {
 	}
 
 	/*
-	public boolean isProfileUpdateSuccessful() {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
-		return driver.findElement(successMessage).isDisplayed();
-	}
+	 * public boolean isProfileUpdateSuccessful() {
+	 * wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
+	 * return driver.findElement(successMessage).isDisplayed(); }
 	 */
 
 	public boolean isProfileUpdateSuccessful() {
-		return wait.until(driver ->
-		driver.findElements(successMessage).size() > 0
-				);
+		return wait.until(driver -> driver.findElements(successMessage).size() > 0);
 	}
 
 	public String getProfileUpdateSuccessMessage() {
