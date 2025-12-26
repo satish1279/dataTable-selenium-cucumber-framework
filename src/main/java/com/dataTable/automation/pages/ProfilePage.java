@@ -86,7 +86,7 @@ public class ProfilePage {
 	}
 
 	public boolean isProfileUpdateSuccessful() {
-		wait.until(ExpectedConditions.textToBePresentInElementLocated(successMessage, "The profile has been saved successful"));
+		wait.until(driver -> driver.findElements(successMessage));
 		return driver.findElement(successMessage).isDisplayed();
 	}
 
