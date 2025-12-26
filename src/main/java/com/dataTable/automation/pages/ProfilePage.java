@@ -34,7 +34,7 @@ public class ProfilePage {
 
 	private By saveButton = By.cssSelector("button[type='submit']");
 
-	private By successMessage = By.xpath("//div[contains(@class, 'alert-success') and contains(text(), 'successful')]");
+	private By successMessage = By.xpath("//div[contains(@class, 'hidden') and contains(text(), 'successful')]");
 
 	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
