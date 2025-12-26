@@ -28,7 +28,7 @@ public class RegistrationPage {
 	private By RegisterButton = By.xpath("//button[@type='submit' and contains(text(), 'Register')]");
 
 	private By successMessage = By.xpath("//div[contains(@class, 'alert-success')]");
-	
+
 
 	public RegistrationPage(WebDriver driver) {
 		this.driver = driver;
@@ -64,14 +64,17 @@ public class RegistrationPage {
 	public void clickRegiserButton() {
 		driver.findElement(RegisterButton).click();
 	}
-
+	/*
 	public boolean isRegistrationSuccessful() {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
 		return driver.findElement(successMessage).isDisplayed();
 	}
+	 */
+	public boolean isRegistrationSuccessful() {
+		return wait.until(driver -> driver.findElements(successMessage).size() > 0);
+	}
 
-	
-	
+
 	public String getRegistrationSuccessMessage() {
 		return driver.findElement(successMessage).getText().trim();
 	}
