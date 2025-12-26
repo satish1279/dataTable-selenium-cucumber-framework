@@ -85,15 +85,12 @@ public class ProfilePage {
 		driver.findElement(saveButton).click();
 	}
 
-	/*
-	 * public boolean isProfileUpdateSuccessful() {
-	 * wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
-	 * return driver.findElement(successMessage).isDisplayed(); }
-	 */
 
 	public boolean isProfileUpdateSuccessful() {
-		return wait.until(driver -> driver.findElements(successMessage).size() > 0);
-	}
+		wait.until(ExpectedConditions.textToBePresentInElementLocated(successMessage, "The profile has been saved successful"));
+		return driver.findElement(successMessage).isDisplayed(); }
+
+
 
 	public String getProfileUpdateSuccessMessage() {
 		return driver.findElement(successMessage).getText().trim();

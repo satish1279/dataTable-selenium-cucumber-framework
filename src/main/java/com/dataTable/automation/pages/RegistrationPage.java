@@ -64,15 +64,12 @@ public class RegistrationPage {
 	public void clickRegiserButton() {
 		driver.findElement(RegisterButton).click();
 	}
-	/*
+
 	public boolean isRegistrationSuccessful() {
-		wait.until(ExpectedConditions.visibilityOfElementLocated(successMessage));
+		wait.until(ExpectedConditions.textToBePresentInElementLocated(successMessage, "Registration is successful"));
 		return driver.findElement(successMessage).isDisplayed();
 	}
-	 */
-	public boolean isRegistrationSuccessful() {
-		return wait.until(driver -> driver.findElements(successMessage).size() > 0);
-	}
+
 
 
 	public String getRegistrationSuccessMessage() {
