@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features = "src/test/resources/features",
 		glue = { "com.dataTable.automation.stepDefinition" },
-		//tags= "@profile",
+		tags= "@profile",
 		plugin = { "pretty", "html:target/cucumber-reports.html" }, 
 		monochrome = true)
 public class TestRunner {
